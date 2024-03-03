@@ -1,0 +1,261 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    
+}
+
+.blog-masthead{
+    background-image: url('pic3.jpg'); 
+    background-size: cover;
+    background-position: 50% 23.5%;
+    height: 680px;
+   
+}
+
+.page-layout {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 450px;
+    Margin-top: 5%;
+    Margin-bottom: 5%;
+    background-size: unset;
+    background-color: transparent;
+    
+}
+
+.name{
+	margin-top: 50px;
+	font-family: 'Tangerine', cursive;
+	font-size: 64px;
+}
+
+.skills-list {
+    padding: 0;
+    margin-right: 20px; 
+    flex-grow: 1; 
+}
+
+
+
+section {
+    width: 50%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+    max-height: 450px; 
+}
+
+.containerintro {
+    position: relative; 
+    Size: cover;
+    height: 2000px;
+    Margin-bottom: 5%;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.containerintro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("pic6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4; 
+    z-index: -1;
+}
+
+p {
+    display: block;
+    margin-block-start: 3em;
+    margin-block-end: 2em;
+    font-size: 19px;
+}
+
+.img {
+    width: 360px; 
+    border-radius: 50%;
+    border: none; 
+    Margin-left: 200px;
+    Margin-top: 95px;
+}
+
+.table-content table {
+    width: 750px;
+    border-collapse: collapse; 
+    margin-top: 2%;
+    Margin-left: 25%;
+    font-family: 'Arial', sans-serif; 
+    font-size: 18px; 
+    text-align: left; 
+}
+
+.table-content th, .table-content td {
+    padding: 15px; 
+    border-bottom: 1px solid #cccccc; 
+}
+
+.table-content th {
+    font-weight: bold; 
+    color: #000;
+    background-color: #f8f8f8; 
+    
+}
+
+.table-content tr:last-child td {
+    border-bottom: none; 
+}
+
+.table-content td {
+    color: #000; 
+}
+
+
+.table-content tr:nth-child(even) td {
+    background-color: #f2f2f2; 
+    opacity: 0.6;
+}
+
+.table-content tr td:first-child {
+    font-weight: bold; 
+}
+
+
+.table-content tr td:last-child {
+    color: #000; 
+    font-weight: bold; 
+}
+
+
+.form-control, .btn-primary {
+    border-radius: 20px;
+    Margin-left: 10px;
+    Margin-bottom: 20px;
+}
+
+
+.form-control:focus, .btn-primary:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.contact-link {
+    margin-right: 30px;
+}
+
+.solid{
+   
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 430px;
+    height: 220px;
+    margin-left: 100px; 
+    background-color: #DDE6ED;
+}
+
+.custom-navbar-toggler {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+    z-index: 1050; 
+}
+
+.custom-navbar-toggler span {
+    display: block;
+    height: 3px;
+    background-color: #333;
+    border-radius: 2px;
+}
+
+.custom-navbar-collapse {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;;
+    height: 100%;
+    background-color: white; 
+    padding-top: 60px; 
+    z-index: 1040; 
+}
+
+
+.custom-navbar-collapse ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+
+.navbar-brand img {
+    height: 45px;
+}
+
+.contact-flex {
+    display: flex; 
+    background-color: #B5C0D0;
+    margin-top: 20px;
+    Height: 500px;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.flex-img {
+    max-width: 410px; 
+    margin-bottom: 100px;
+    Margin-top: 100px;
+    Margin-left: 200px;
+    height: auto; 
+    
+}
+
+.icon {
+    width: 50px; 
+    height: 50px; 
+    align-items: center; 
+    margin-left: 550px;
+    margin-bottom: 0;
+}
+
+
+H2{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}    
+
+.skills-list .indicator {
+    display: block;
+    min-width: 30px;
+    max-width: 30px;
+    margin-bottom: 0;
+}
+
+.blog-footer {
+    background-color: #f0f2f5;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 25px; 
+    Border: double;
+    Margin-top: 10px; 
+    padding-top: 5px;
+}
+

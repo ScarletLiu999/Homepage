@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Leave me message</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="important points">
+		<meta name="description" content="how to describe">
+		<meta name="author" content="who">
+ 
+    		<link href="style.css" rel="stylesheet">
+    		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<style>
+			.container{
+				position: relative; 
+    				Size: cover;
+    				height: 900px;
+    				overflow: hidden; 
+			}
+
+			.container::before {
+    				content: "";
+    				position: absolute;
+    				top: 0;
+    				left: 0;
+    				right: 0;
+    				bottom: 0;
+    				background-image: url("pic5.png");
+    				background-size: cover;
+    				background-position: 0, 95%;
+    				background-repeat: no-repeat;
+				border-radius: 5%;
+    				opacity: 0.5; 
+    				z-index: -1;
+			}
+			.btn-primary {
+    				color: #fff;
+    				background-color: black;
+   				border-color: black;
+				font-size: 35px;
+				
+			}
+		</style>
+
+	</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+
+   
+
+    <a href="index.html" class="navbar-brand logo hidden-xs">
+        <img src="logo1.png" alt="Logo" style="height: 40px; margin-left: 15px;">
+    </a>
+
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+ 
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#headd">Header</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html#index1">Introduction</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#index3">Contact</a>
+            </li>
+            <li class="nav-item contact-link">
+                <a class="nav-link" href="#">Message</a>
+            </li>
+            <li class="nav-item">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+  
+
+<div class="container text-center mt-5">
+    <div class="row mt-4">
+            <div class="col-12">
+		<div class="text-wrap" >
+                	<p style="font-size: 50px; font-family: 'Tangerine', cursive;">Leave me message</p>
+		</div>
+                <form>
+                    <div class="form-group" style="margin: 3%;">
+                        <label for="nameInput" style="font-size: 30px; font-family: 'Tangerine', cursive;">Name</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group" style="margin: 3%;">
+                        <label for="emailInput" style="font-size: 30px; font-family: 'Tangerine', cursive;">Email address</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group" style="margin: 3%;">
+                        <label for="messageTextarea" style="font-size: 30px; font-family: 'Tangerine', cursive;">Message</label>
+                        <textarea class="form-control" id="messageTextarea" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" >Submit</button>
+                </form>
+            </div>
+
+    </div>
+</div>
+
+
+
+<div class="blog-footer">
+    <a href="index.html" class="navbar-brand logo hidden-xs">
+        <img src="logoS.png" alt="Logo" style="height: 40px; ">
+    </a>
+    <p class="text-center" style="margin-top: 5px;">Welcome to my homepage!</p>
+</div>
+
+</body>
+</html>
